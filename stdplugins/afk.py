@@ -126,7 +126,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)} secondes ago`"
         msg = None
-        message_to_reply = f"`Hey, My Master Elliot iz Currently OFFLINE` " + \
+        message_to_reply = f"`Hey, My Master 乡S̸ID̸乡 iz Currently OFFLINE` " + \
             f"`Reason:` **{reason}** Since: **{afk_since}**"\
             if reason \
             else f"RIP.....\n\n**Important Notice**\n\n[Sorry ! But My Mastor Ded Forever...Sed...Very Sed...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg)"
