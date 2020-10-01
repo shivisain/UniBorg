@@ -64,7 +64,7 @@ async def _(event):
             )
             await event.delete()
     else:
-        await event.edit(final_output)
+        await event.reply(final_output)
 
 
 async def aexec(code, event):
